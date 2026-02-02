@@ -1,16 +1,13 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <!-- the head tag is for non-visible information -->
-        <title>Preslie's Website!</title>
+        <title>Greek Islands</title>
+        <meta name="description" content="Explore the Greek Islands with travel recommendations and tips for Santorini, Mykonos, and more. Discover your perfect getaway destination.">
         <meta property="og:url"           content="https://preslielampitt.github.io/" />
         <meta property="og:type"          content="website" />
-        <meta property="og:title"         content="Preslie's Website!" />
-        <meta property="og:description"   content="This is an example from class in CS040." />
+        <meta property="og:title"         content="Greek Islands" />
+        <meta property="og:description"   content="Preslie's first project for CS040 on the Greek Islands." />
         <meta property="og:image"         content="https://www.your-domain.com/path/image.jpg" />
-        <!-- style tag always inside the head tag -->
-        <!-- adding the #selected will select the tags with id="selected" -->
-        <!-- adding the .menu selects the tags with class="menu" -->
         
         <!-- Google tag (gtag.js) -->
         <script async src="https://www.googletagmanager.com/gtag/js?id=G-183G4PGW3V"></script>
@@ -20,65 +17,37 @@
             gtag('js', new Date());
             gtag('config', 'G-183G4PGW3V');
         </script> 
-        
-        <style>
-            ul.menu {
-                list-style-type: none;
-                overflow: hidden;
-            }
-            li.menu {
-                background-color: lightblue;
-                float: left;
-                margin: 0;
-                padding: 10px;
-            }
-            li#selected {
-                background-color: blue;
-            }
-        </style>
+
+        <!-- style tag always inside the head tag -->
+        <link rel="stylesheet" href="style.css">
     </head>
 
     <body>
-        <!-- all visible "stuff" on the page inside the body tag -->
-
-        <!-- Load Facebook SDK for JavaScript -->
-        <div id="fb-root"></div>
-        <script async defer crossorigin="anonymous" 
-            src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v24.0&appId=APP_ID">
-        </script>
-
-        <!-- Like Button -->
-        <div class="fb-like" 
-            data-href="https://preslielampitt.github.io/" 
-            data-width="100"
-            data-layout="button_count" 
-            data-action="like" 
-            data-size="large" 
-            data-share="true">
-        </div>
-
-        <!-- Goal: Create a navigation menu bar -->
-        <h1 style="color: red;">My Zoo Webpage</h1>
-        <!-- div = divider; divide the webage into "chunks" -->
+        <h1>Visiting the Greek Islands</h1>
+        <!-- Navigation menu bar -->
         <div>
         <ul class="menu">
-            <!-- whenever you refer to your own webpage, 
-            or an HTML files that's "inside your webpage", 
-            do not include https:// -->
-            <li class="menu"><a href="elephant.html">Elephant</a></li>
-            <li class="menu">Giraffe</li>
-            <li class="menu" id="selected">Tiger</li>
-            <li class="menu">Lion</li>
+            <li class="menu" id="selected">Home</li>
+            <a href="santorini.html"><li class="menu">Santorini</li></a>
+            <a href="mykonos.html"><li class="menu">Mykonos</li></a>
         </ul>
         </div>
 
+        <div class="positioning">
+            <p>Thinking about visiting the <span>Greek Islands</span>? With many to explore, it can be hard to choose where to go.</p>
+            <p>Whether you're planning a relaxing getaway or an adventurous trip, the <span>Greek Islands</span> have something for everyone. 
+            <p>Explore the pages on this site to discover recommendations and tips for making the most of your visit!</p>
+        </div>
+
+        <img class="photos" src="https://www.sailingeurope.com/blog/wp-content/uploads/2025/01/shutterstock_272586932.jpg"
+            alt="Map of the Greek Islands">
+
         <div>
-        <h2>Names of Giraffes</h2>
-        <ul>
-            <li><a href="https://doesnotexist">Marty</a></li>
-            <li>Steve</li>
-            <li>George</li>
-        </ul>
+            <h3>Additional Links</h3>
+            <p>Follow the CS040 Course Webpage: <a href="https://github.com/mikeizbicki/cmc-csci040">CS040 Webpage</a></p>
+            <p>Follow Mike Izbicki's Personal Webpage: <a href="https://izbicki.me">Mike Izbicki's Personal Webpage</a></p>
+            <p>Follow Mia's Webpage on Alo vs. Lululemon: <a href="https://MiaUrosevic.github.io" rel="nofollow">Mia's Personal Webpage</a></p>
+            <p>Follow Chisato's Webpage on Pastries: <a href="https://chisatokamakura.github.io" rel="nofollow">Chisato's Personal Webpage</a></p>
         </div>
 
     </body>

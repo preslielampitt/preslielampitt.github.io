@@ -1,0 +1,64 @@
+body {
+    padding-left: 10px;
+}
+ul.menu {
+    list-style-type: none;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+li.menu {
+    background-color: lightblue;
+    float: left;
+    margin: 0;
+    padding: 10px;
+}
+li#selected {
+    background-color: rgb(55, 142, 249);
+}
+li.menu:hover {
+    background-color: rgb(58, 169, 233);
+}
+h1 {
+    color: rgb(121, 201, 235);
+    margin: 20px 0;
+}
+h3, span {
+    color: rgb(89, 147, 219);
+}
+a {
+    color: blue;
+}
+table, th, td {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+img.photos {
+    width: 30%;
+    height: auto;
+    max-width: 100%;
+    padding: 20px;
+    border-radius: 40px;
+    margin: 10px auto; 
+}
+footer {
+    padding-top: 20px;
+}
+p {
+  font-family: Calibri, 'Arial Rounded MT', 'Helvetica Rounded', Arial, sans-serif;
+  width: 70%;
+  color: rgb(42, 42, 57);
+}
+div.positioning {
+    padding: 0px;
+    margin: 10px auto; 
+}
+ @media only screen and (max-width: 600px) {
+  body {
+    background-color: lightblue;
+  }
+}

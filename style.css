@@ -23,8 +23,11 @@ h1 {
     color: rgb(121, 201, 235);
     margin: 20px 0;
 }
-h3, span {
+h2, span {
     color: rgb(89, 147, 219);
+}
+a.menu {
+    text-decoration: none;
 }
 a {
     color: blue;
